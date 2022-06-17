@@ -21,7 +21,7 @@ class ObjetivoControllers {
     response.send(objetivo);
   }
 
-  async criarNovaPaleta(request, response) {
+  async criarNovoObjetivo(request, response) {
     const { descricao, valor, atingido } = request.body;
 
     try {

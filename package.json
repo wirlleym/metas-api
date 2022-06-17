@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node src/server",
-    "dev": "nodemon src/server"
+    "dev": "node src/server"
   },
   "keywords": [],
   "author": "",

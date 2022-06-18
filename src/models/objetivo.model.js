@@ -4,9 +4,9 @@ const { Schema, model } = mongoose;
 
 const ObjetivoSchema = new Schema(
   {
-    descricao: { type: String, required: true, unique: true },
+    descricao: { type: String , required: true, unique: true },
     valor: { type: Number, required: true },
-    atingido: { type: Boolean, required: true },
+    atingido: { type: String, required: true },
   },
   { versionKey: false },
 );

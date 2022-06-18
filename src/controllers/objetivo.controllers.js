@@ -5,7 +5,7 @@ const objetivoServices = new ObjetivoServices();
 class ObjetivoControllers {
   async listarTodos(request, response) {
     try {
-      const objetivo = await objetivoServices.listarTodas();
+      const objetivo = await objetivoServices.listarTodos();
 
       response.send(objetivo);
     } catch (error) {
